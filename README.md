@@ -1,5 +1,24 @@
-# Assignment 3 - Building a 1 Table App with Vue.js and Firebase
+# my-subscriptions-app
 
-[Assignment](https://unomail-my.sharepoint.com/:w:/g/personal/spawaskar_unomaha_edu/EZaef0J-xdZMs3f_HSlwL_sBHBQm24frdhB3lAjy-xdbXA?e=HBBiGG)
+## Project setup
+```
+npm install
+```
 
-[Tutorial](https://unomail-my.sharepoint.com/:w:/g/personal/spawaskar_unomaha_edu/EVWlWw1BGoVOg_-_0QYymWcBffTN8hbJgqgbVHHcR9xfDw?e=DR7Z7a)
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
