@@ -20,7 +20,7 @@
                         <td class="d-none d-sm-table-cell">{{ subscription.description }}</td>
                         <td>${{ subscription.amount }}</td>
                         <td>
-                            <router-link :to="{name: 'edit', params: { id: subscription.key }}" class="btn btn-primary btn-                                sm px-3">
+                            <router-link :to="{name: 'editSubscription', params: { id: subscription.key }}" class="btn btn-primary btn-                                sm px-3">
                               Edit
                             </router-link>
                             <button @click.prevent="deleteSubscription(subscription.key)" class="btn btn-danger btn-                                  sm px-3">

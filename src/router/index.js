@@ -3,19 +3,19 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    name: 'List',
+    name: 'ListSubscription',
     component: () => import('../components/ListSubscription')
 
   },
   {
     path: '/create',
-    name: 'Create',
+    name: 'CreateSubscription',
     component: () => import('../components/CreateSubscription')
   },
 
   {
     path: '/edit/:id',
-    name: 'edit',
+    name: 'editSubscription',
     component: () => import('../components/EditSubscription')
 
   }
